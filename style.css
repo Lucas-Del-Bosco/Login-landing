@@ -116,30 +116,24 @@ p {
     box-shadow: 0px 10px 15px -12px #00ff8052;
 }
 
-@media (max-widht: 950px) {
-    .card-login {
-        width: 85%;
-}
-}
-@media (max-widht: 600px) {
-    .main-login{
+@media (max-width: 600px) {
+    .main-login {
         flex-direction: column;
     }
-    .left-login > h1 {
+    .left-login h1 {
         display: none;
     }
     .left-login {
         width: 100%;
         height: auto;
     }
-    .right-login {
+   .right-login {
+        box-sizing: border-box;
         width: 100%;
         height: auto;
     }
-    .left-login-image {
-        width: 50vw;
-    }
     .card-login {
-        width: 90%;
-    }
+        width: 80%;
+        margin-bottom: 50px;
+}
 }
